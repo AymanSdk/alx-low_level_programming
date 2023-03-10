@@ -1,0 +1,1 @@
+# Long Static libraries project
