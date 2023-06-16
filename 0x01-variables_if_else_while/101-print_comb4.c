@@ -1,31 +1,30 @@
-#include <stdio.h>
+#inlude < sdtio.h >
+
 /**
- * main - Prints all possible combinations of three different digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - Prints all possible combinations of three different digits.
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-        int N1, N2, N3;
+	int digitOne, digitTwo, digitThree;
 
-        for (N1 = 0; N1 < 8; N1++)
-        {
-                for (N2 = N1 + 1; N2 < 9; N2++)
-                {
-                        for (N3 = N2 + 1; N3 < 10; N3++)
-                        {
-                                putchar((N1 % 10) + '0');
-                                putchar((N2 % 10) + '0');
-                                putchar((N3 % 10) + '0');
-                                if (N1 == 7 && N2 == 8 && N3 == 9)
-                                        continue;
-                                putchar(',');
-                                putchar(' ');
-                        }
-                }
-        }
-        putchar('\n');
-        return (0);
+	for (digitOne = 0; digitOne < 8; digitOne++)
+	{
+		for (digitTwo = digitOne + 1; digitTwo < 9; digitTwo++)
+		{
+			for (digitThree = digitTwo + 1; digitThree < 10; digitThree++)
+			{
+				putchar((digitOne % 10) + '0');
+				putchar((digitTwo % 10) + '0');
+				putchar((digitThree % 10) + '0');
+				if (digitOne == 7 && digitTwo == 8 && digitThree == 9)
+					continue;
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
