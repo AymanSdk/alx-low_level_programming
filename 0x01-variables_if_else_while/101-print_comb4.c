@@ -5,26 +5,27 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-	int digit1, digit2, digit3;
+        int N1, N2, N3;
 
-	for (digit1 = 0; digit1 < 8; digit1++)
-	{
-		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
-		{
-			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
-			{
-				putchar((digit1 % 10) + '0');
-				putchar((digit2 % 10) + '0');
-				putchar((digit3 % 10) + '0');
-				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
-					continue;
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+        for (N1 = 0; N1 < 8; N1++)
+        {
+                for (N2 = N1 + 1; N2 < 9; N2++)
+                {
+                        for (N3 = N2 + 1; N3 < 10; N3++)
+                        {
+                                putchar((N1 % 10) + '0');
+                                putchar((N2 % 10) + '0');
+                                putchar((N3 % 10) + '0');
+                                if (N1 == 7 && N2 == 8 && N3 == 9)
+                                        continue;
+                                putchar(',');
+                                putchar(' ');
+                        }
+                }
+        }
+        putchar('\n');
+        return (0);
 }
