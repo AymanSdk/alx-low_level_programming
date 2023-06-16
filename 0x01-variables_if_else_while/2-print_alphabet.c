@@ -17,5 +17,6 @@ int main(void)
 		putchar(alphastart);
 		alphastart++;
 	}
+	putchar(\n);
 	return (0);
 }
