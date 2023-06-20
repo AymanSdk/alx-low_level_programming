@@ -11,7 +11,7 @@ void print_times_table(int n)
 {
 	int si7ri, bondo9, hawli;
 
-	if( n >= 0 && n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (si7ri = 0; si7ri <= n; si7ri++)
 		{
