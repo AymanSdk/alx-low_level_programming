@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the add of the even-valued terms of the Fibonacci sequence whose values do not exceed 4,000,000
+ * main - prints the add of the even-valued terms of the Fibonacci sequence
+ * starting with 1 and 2, followed by a new line.
+ * The numbers must be separated by commas, followed by a space ,
  * Return: Always 0 (Success)
  */
 int main(void)
