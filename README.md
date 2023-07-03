@@ -42,3 +42,4 @@ To write and compile C programs, you need a C compiler. Here are some popular op
 - **Clang**: Clang is another open-source compiler known for its excellent diagnostics and compatibility with GCC. It provides a modern and feature-rich toolchain for C development.
 
 - **Visual Studio**: Microsoft Visual Studio is a comprehensive IDE that includes a C compiler for Windows development. It offers a rich set of features for debugging, code editing, and
+Def
