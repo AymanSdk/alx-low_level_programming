@@ -1,6 +1,6 @@
-#ifndef MARCO_H
-#define MARCO_H
+#ifndef MARCO_SIZE
+#define MARCO_SIZE
 
-#define PI 3.14159265359
+#define SIZE 1024
 
 #endif
