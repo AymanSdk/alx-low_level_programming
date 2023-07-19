@@ -1,5 +1,5 @@
-#ifndef "F_pointers.h"
-#define "F_pointers.h"
+#ifndef "FUNCTION_POINTERS_H"
+#define "FUNCTION_POINTERS_H"
 #include <stdlib.h>
 
 void print_name(char *name, void (*f)(char *));
