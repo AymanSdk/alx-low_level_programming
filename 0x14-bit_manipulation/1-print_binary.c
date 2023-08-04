@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _power - calculate the (base and power)
  * @base: base of exponet
