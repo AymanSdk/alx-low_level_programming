@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - copies the content of a file to another file
  * @argc: number of arguments
@@ -7,7 +6,6 @@
  *
  * Return: 0 on success
  */
-
 int main(int argc, char *argv[])
 {
 	int fd_from, fd_to, rd, wr, cl;
