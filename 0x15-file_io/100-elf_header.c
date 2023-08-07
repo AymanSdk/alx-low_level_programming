@@ -1,18 +1,18 @@
-#include "main.h"
+#include "ain.h"
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(void)
 {
 	int i;
-	char *s;
+	char *str;
 
-	s = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	i = _strlen(s);
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	i = _strlen(str);
 	printf("%d\n", i);
 	return (0);
 }

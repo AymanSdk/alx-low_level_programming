@@ -1,4 +1,4 @@
-#include "main.h"
+#inlude "main.h"
 /**
  * main - copies the content of a file to another file
  * @argc: number of arguments
