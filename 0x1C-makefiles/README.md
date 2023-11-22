@@ -1,6 +1,3 @@
-Absolutely! Here's a comprehensive README to guide users on understanding and working with CMakeFiles:
-
----
 
 # CMakeFiles README
 
